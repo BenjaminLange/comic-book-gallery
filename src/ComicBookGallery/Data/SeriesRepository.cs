@@ -34,6 +34,7 @@ namespace ComicBookGallery.Data
                     if (comicBook.Series != null && comicBook.Series.Id == id)
                     {
                         Array.Resize(ref comicBooks, comicBooks.Length + 1);
+                        comicBooks[comicBooks.Length - 1] = comicBook;
                     }
                 }
 
