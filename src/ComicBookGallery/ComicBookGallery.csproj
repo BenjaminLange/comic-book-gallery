@@ -93,7 +93,7 @@
     <Content Include="Content\site.css" />
     <Content Include="Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Images\bone-50.jpg" />
+    <Content Include="Images\bones-50.jpg" />
     <Content Include="Images\the-amazing-spider-man-657.jpg" />
     <Content Include="Images\the-amazing-spider-man-700.jpg" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -107,6 +107,7 @@
     <Content Include="Views\ComicBooks\Index.cshtml" />
     <Content Include="Views\Series\Index.cshtml" />
     <Content Include="Views\Series\Detail.cshtml" />
+    <Content Include="Views\Shared\_ComicBooksList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
